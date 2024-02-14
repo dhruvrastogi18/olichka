@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "ТЫ РАЗБИЛА МНЕ СЕРДЦЕ! Я плачу..(эта кнопка для визуала)";
+      "WTF You mean by No! Think again!";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -34,7 +34,7 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "УРА УРА УРА! ZZZ VVV Я ТЕБЯ ЛЮБЛЮ😘😘";
+    yesMessage.textContent = "Lesgggoo! Flowers, beer, food, and ofc hella lot kisses waiting for ya.";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "italic";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
