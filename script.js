@@ -1,5 +1,5 @@
 function showMessage(response) {
-  if (response === "Нет") {
+  if (response === "No") {
     const noButton = document.getElementById("no-button");
     const container = document.querySelector(".container");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
@@ -27,14 +27,14 @@ function showMessage(response) {
     // Optional: You can also add a timeout to reset the position after a few seconds
   }
 
-  if (response === "Да") {
+  if (response === "Yes") {
     // Remove name message and no button
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Lesgggoo! Flowers, beer, food, and ofc hella lot kisses waiting for ya.";
+    yesMessage.textContent = "I am so glad you came in my life, I love everything about you, you put so much efforts everyday for me,I remember when i said i never gotten flowers, and you said I will buy flowers for you. I swear I fell in love. You are amazing! You deserve all the happiness in the world! Wish I can hug and kiss you right now! One Day I promise I will!";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "italic";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
